@@ -63,7 +63,7 @@ getData:{[f;k]
         d: tabs! cols each tabs;
         d:f where each f in/: d;
         d:(where 1<count each d)#d;
-        uj/[{[t;f] `id xkey ?[t;();0b;f!f]}'[key d;value d]]}
+        uj/[{[t;f;k] k xkey ?[t;();0b;f!f]}[;;k]'[key d;value d]]}
 
 
 q)getData[`col1`col2;`date`sym]
