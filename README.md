@@ -1,4 +1,3 @@
-# Adverbs-
-Code repository to accompany Adverbs blog written by Nusa Znuderl
+Repository moved to 
 
-Includes the outputs of many of the operations 
+[github.com/kxcontrib/kxblog](https://github.com/kxcontrib/kxblog)
